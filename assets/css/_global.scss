@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "ExpoArabic";
+    src: url(../fonts/ExpoArabic/ExpoArabic-Medium.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "ExpoArabic";
+    src: url(../fonts/ExpoArabic/ExpoArabic-Book.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "ExpoArabic";
+    src: url(../fonts/ExpoArabic/ExpoArabic-SemiBold.ttf);
+    font-weight: 900;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "ExpoArabic" , sans-serif ;
+    scroll-behavior: smooth;
+
+    &::selection{
+        background-color: #DB2E2D;
+        color: #fff; 
+    }
+    
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #000;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #DB2E2D, #000); 
+        border-radius: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, #000, #DB2E2D); 
+    }
+}
+
+.overflowNone{
+    overflow: hidden;
+}
+
+.btn:focus,
+button:focus,
+input:focus,
+.form-control:focus {
+    outline-width: 0px !important;
+    outline-color: transparent !important;
+    box-shadow: 0 0 0 0 rgba($color: #000000, $alpha: 0);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 20px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #FFD371;
+    opacity: .5;
+    transition: all .5s linear;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span{
+    opacity: 1;
+}
+
+.overflowNone{
+    overflow: hidden;
+}
+.button-contain{
+    
+    &.flex-end-btn{
+        display: flex !important;
+        justify-content: flex-end  !important;
+        align-items: center !important;
+        align-content: center !important;
+        width: 100%;
+    }
+
+    .btn-img-contain{
+        width: 170px;
+        height: 45px;
+        border: 1px solid #fff;
+        border-radius: 23px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        z-index: 9;
+        overflow: hidden;
+
+        &.gold-border{
+            border-color: #EC3737;
+
+            .gold-img{
+                filter: invert(52%) sepia(62%) saturate(396%) hue-rotate(356deg) brightness(98%) contrast(88%);
+            }
+
+            .btn-data{
+                color: #EC3737;
+            }
+
+            &:hover{
+
+                .gold-img{
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(312deg) brightness(104%) contrast(104%);
+                }
+
+                .btn-data{
+                    color: #fff;
+                }
+            }
+        }
+
+        &.gold-bk{
+            background-color: #EC3737;
+            border-color: #EC3737;
+        }
+
+        &.red-bk{
+            background-color: #EC3737;
+            border: none;
+        }
+
+        &.move-bk{
+            background-color: #DB2E2D;
+            border: none;
+        }
+
+        &.green-bk{
+            background-color: #EC3737;
+            border: none;
+        }
+
+        &::after{
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(-90deg , #EC3737 , #DB2E2D);
+            top: 0;
+            z-index: -1;
+            transition: all .2s linear;
+            left: 0px;
+        }
+
+        .btn-img{
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            transition: all .2s linear;
+            margin-inline-end: 8px;
+        }
+
+        .btn-data{
+            color: #fff;
+            font-size: 15px;
+            font-weight: 900;
+            line-height: 24px;
+        }
+
+        &:hover{
+            &::After{
+                width: 100%;
+            }
+
+            .btn-img{
+                animation: tada 1s both;
+            }
+        }
+    }
+}

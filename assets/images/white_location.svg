@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_5214" data-name="Group 5214" transform="translate(-0.154)">
+    <g id="location_bulk" data-name="location/bulk" transform="translate(0.154)">
+      <g id="vuesax_bulk_location" data-name="vuesax/bulk/location">
+        <g id="location">
+          <path id="Vector" d="M36.376,13.943C34.193,4.329,25.817,0,18.458,0h-.021C11.1,0,2.7,4.308.52,13.922-1.912,24.66,4.656,33.755,10.6,39.478a11.261,11.261,0,0,0,15.694,0C32.24,33.755,38.808,24.681,36.376,13.943Z" transform="translate(6.542 3.669)" fill="#fff" opacity="0.4"/>
+          <path id="Vector-2" data-name="Vector" d="M13.209,6.6A6.6,6.6,0,1,1,6.6,0,6.6,6.6,0,0,1,13.209,6.6Z" transform="translate(18.395 14.883)" fill="#fff"/>
+          <path id="Vector-3" data-name="Vector" d="M0,0H50V50H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
