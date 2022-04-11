@@ -36,11 +36,11 @@ html[dir="ltr"] {
   top: 0;
   left: 0;
   transition: all .3s linear;
-  z-index: 9999;
+  z-index: 999;
 
   &.scrolled {
     padding: 10px 0px;
-    box-shadow: 0px 0px 10px rgba($color: #DB2E2D, $alpha: 0.5);
+    box-shadow: 0px 0px 10px rgba($color: #BC8B46, $alpha: 0.5);
 
     .brand-name img {
       height: 60px;
@@ -59,7 +59,7 @@ html[dir="ltr"] {
       .line { 
         width: 30px;
         height: 3px;
-        background: linear-gradient(45deg, #DB2E2D 0%, #f00 100%);
+        background: linear-gradient(45deg, #BC8B46 0%, #BC8B46 100%);
         display: block;
         margin: 8px auto;
         transition: all 0.3s ease-in-out;
@@ -113,16 +113,15 @@ html[dir="ltr"] {
           font-weight: 700;
 
           &:hover, &.active {
-            color: #DB2E2D;
+            color: #BC8B46;
           }
         }
       }
     }
 
     .lang {
-      width: 50px;
-      height: 50px;
-      background: linear-gradient(180deg, #DB2E2D, #f00);
+      width: 30px;
+      height: 30px;
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -131,6 +130,12 @@ html[dir="ltr"] {
       font-size: 15px;
       font-weight: 500;
       color: #fff;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
     }
   }
 }
@@ -203,7 +208,7 @@ header {
       }
 
       h2 {
-        color: #DB2E2D;
+        color: #BC8B46;
       }
     }
   }
@@ -212,7 +217,7 @@ header {
 .sub-header {
   width: 100%;
   padding: 200px 0px 80px 0px;
-  background: linear-gradient(190deg, #DB2E2D, #f00);
+  background: linear-gradient(190deg, #BC8B46, #BC8B46);
 
   .content {
     width: 100%;
@@ -249,7 +254,7 @@ header {
       span {
         width: 10px !important;
         height: 10px !important;
-        background-color: #DB2E2D !important;
+        background-color: #BC8B46 !important;
         opacity: 1 !important;
       }
     }
@@ -335,7 +340,7 @@ header {
         .progress-shape{
           height: 5px;
           position: absolute;
-          background-color: #DB2E2D;
+          background-color: #BC8B46;
           border-radius: 5px;
           left: 25%;
           right: 25%;
@@ -360,7 +365,7 @@ header {
             height: 20px;
             border-radius: 50%;
             background-color: #ffffff;
-            border: 1px solid #DB2E2D;
+            border: 1px solid #BC8B46;
             appearance: none;
             pointer-events: auto;
           }
@@ -370,7 +375,7 @@ header {
             height: 20px;
             border-radius: 50%;
             background-color: #fff;
-            border: 1px solid #DB2E2D;
+            border: 1px solid #BC8B46;
             appearance: none;
             pointer-events: auto;
           }
@@ -392,7 +397,7 @@ header {
         margin-top: 10px !important;
         padding: 11.5px 13px;
         border-radius: 25px;
-        background-color: rgba($color: #DB2E2D, $alpha: .06);
+        background-color: rgba($color: #BC8B46, $alpha: .06);
         display: flex;
         align-items: center;
         align-content: center;
@@ -400,7 +405,7 @@ header {
         margin-inline-end: 10px;
 
         .name{
-          color: #DB2E2D;
+          color: #BC8B46;
           font-size: 14px;
           margin-inline-end: 13px;
         }
@@ -439,19 +444,19 @@ header {
         .number-link{
           width: 40px;
           height: 40px;
-          border: 1px solid #DB2E2D;
+          border: 1px solid #BC8B46;
           border-radius: 50%;
           display: flex;
           align-items: center;
           align-content: center;
           justify-content: center;
-          color: #DB2E2D;
+          color: #BC8B46;
           font-size: 18px;
           font-weight: 900;
           line-height: 28px;
 
           &.active , &:hover{
-            background-color: #DB2E2D;
+            background-color: #BC8B46;
             color: #fff;
           }
         }
@@ -474,14 +479,14 @@ header {
         height: 20px !important;
         background-color: #fff !important;
         border-radius: 50% !important;
-        border: 1px solid #DB2E2D !important;
+        border: 1px solid #BC8B46 !important;
         top: calc(50% - 10px) !important;
         
     
         &:focus , &:hover , &:active{
           outline: none !important;
           background: #fff !important;
-          border: 5px solid #DB2E2D !important;
+          border: 5px solid #BC8B46 !important;
         }
       }
     }
@@ -510,7 +515,7 @@ header {
     position: relative;
     overflow: hidden;
     transition: all .4s linear;
-    box-shadow: 0px 0px 10px rgba($color: #DB2E2D, $alpha: 0.05);
+    box-shadow: 0px 0px 10px rgba($color: #BC8B46, $alpha: 0.05);
 
     .image-content {
       width: 100%;
@@ -527,7 +532,7 @@ header {
 
       .type {
         padding: 5px 15px;
-        background-color: rgba($color: #DB2E2D, $alpha: 0.9);
+        background-color: rgba($color: #BC8B46, $alpha: 0.9);
         color: #fff;
         font-size: 15px;
         font-weight: 500;
@@ -542,8 +547,8 @@ header {
       .model {
         padding: 5px 20px !important;
         background-color: rgba($color: #fff, $alpha: 1);
-        border: 1px solid #DB2E2D;
-        color: #DB2E2D;
+        border: 1px solid #BC8B46;
+        color: #BC8B46;
         font-size: 15px;
         font-weight: 500;
         position: absolute;
@@ -587,7 +592,15 @@ header {
           font-size: 15px;
           font-weight: 500;
           margin: 0px !important;
+
+          &.type {
+            color: #BC8B46;
+            font-weight: 900;
+            text-align: center !important;
+            width: 100%;
+          }
         }
+        
       }
     }
 
@@ -709,7 +722,7 @@ header {
     .custom-btn {
       width: 150px;
       height: 50px;
-      background-color: #DB2E2D;
+      background-color: #BC8B46;
       border-radius: 4px;
       display: flex;
       align-items: center;
@@ -721,11 +734,18 @@ header {
       margin-inline-end: 10px;
       margin-top: 15px;
       outline: none;
-      border: 1px solid #DB2E2D;
+      border: 1px solid #BC8B46;
+
+      img {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        margin-inline-end: 10px !important;
+      }
 
       &:hover {
         background-color: transparent;
-        color: #DB2E2D;
+        color: #BC8B46;
       }
     }
   }
@@ -737,7 +757,7 @@ header {
     margin-top: 20px;
 
     h2 {
-      color: #DB2E2D;
+      color: #BC8B46;
       font-size: 18px;
       font-weight: 700;
       width: fit-content;
@@ -794,21 +814,33 @@ header {
       color: #161615;
       font-size: 15px;
       font-weight: 900;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
     }
 
     h3 {
-      color: #DB2E2D;
+      color: #BC8B46;
       font-size: 15px;
       font-weight: 900;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
 
     .desc {
-      font-size: 15px;
+      font-size: 10px;
       font-weight: 500;
       color: #808080;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
+    }
+
+    .data-contain {
+      margin-top: 10px;
+    }
+
+    .data-desc {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.8rem;
+      color: #808080;
+      margin-bottom: 5px;
     }
 
     .flex-data {
@@ -817,11 +849,11 @@ header {
       align-content: center;
       justify-content: flex-start;
       margin-bottom: 20px;
-      padding: 20px 0px;
+      padding: 10px 0px;
       border-bottom: 1px solid #ddd;
 
       p {
-        color: #DB2E2D;
+        color: #BC8B46;
         font-size: 15px;
         font-weight: 500;
         margin: 0px;
@@ -842,7 +874,6 @@ header {
 
         &:last-child {
           padding-bottom: 0px !important;
-          border: 0px !important;
         }
 
         .name {
@@ -873,15 +904,15 @@ header {
     padding: 55px 60px;
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba($color: #DB2E2D, $alpha: 0.05);
+    box-shadow: 0px 0px 10px rgba($color: #BC8B46, $alpha: 0.05);
   }
 
   .contact-data {
     width: 100%;
     padding: 20px 35px;
-    background-color: #DB2E2D;
+    background-color: #BC8B46;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px rgba($color: #DB2E2D, $alpha: 0.10);
+    box-shadow: 0px 0px 30px rgba($color: #BC8B46, $alpha: 0.10);
 
     .box {
       width: 100%;
@@ -946,7 +977,7 @@ header {
   .content {
     width: 100%;
     padding: 50px 42px 30px 42px;
-    background: linear-gradient(-90deg, #DB2E2D, #f00);
+    background: linear-gradient(-90deg, #BC8B46, #BC8B46);
     border-radius: 40px;
     position: relative;
     z-index: 999;
@@ -1063,7 +1094,7 @@ header {
     box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.05);
 
     h2 {
-      color: #DB2E2D;
+      color: #BC8B46;
       font-size: 30px;
       font-weight: 900;
       margin-bottom: 25px;
@@ -1097,7 +1128,7 @@ header {
           content: '';
           width: 15px;
           height: 15px;
-          background-color: #DB2E2D;
+          background-color: #BC8B46;
           border-radius: 3px;
           transform: rotate(45deg);
           display: inline-block;
@@ -1114,36 +1145,30 @@ header {
 
   .box {
     width: 100%;
-    padding: 20px 15px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.05);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     align-content: center;
     text-align: center;
     transition: all .3s linear;
 
     .image-content {
-      width: 80px;
-      height: 80px;
-      background: linear-gradient(90deg, #DB2E2D, #f00);
-      display: flex;
-      align-items: center;
-      align-content: center;
-      justify-content: center;
-      border-radius: 50%;
+      width: 100%;
+      height: 200px;
 
       img {
-        width: 40px;
-        height: 40px;
-        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
 
     .content {
-      padding: 15px 0px 0px;
+      padding: 15px 20px;
 
       h2 {
         color: #000;
@@ -1214,14 +1239,14 @@ header {
   height: 20px !important;
   background-color: #fff !important;
   border-radius: 50% !important;
-  border: 1px solid #DB2E2D !important;
+  border: 1px solid #BC8B46 !important;
   top: calc(50% - 10px) !important;
   
 
   &:focus , &:hover , &:active{
       outline: none !important;
       background: #fff !important;
-      border: 5px solid #DB2E2D !important;
+      border: 5px solid #BC8B46 !important;
   }
 }
 
@@ -1294,7 +1319,7 @@ header {
           }
 
           &:focus , &:hover , &:visited{
-              border-color: #DB2E2D;
+              border-color: #BC8B46;
           }
       }
 
@@ -1447,7 +1472,7 @@ header {
           top: 0;
           left: 0;
           border-radius: 20px;
-          border: 1px solid #DB2E2D;
+          border: 1px solid #BC8B46;
           overflow: hidden;
           display: none;
           z-index: 9;
@@ -1495,17 +1520,17 @@ header {
       width: 25px;
       height: 25px;
       border-radius: 50%;
-      border: 1px solid #DB2E2D;
+      border: 1px solid #BC8B46;
       background-color: #fff;
       cursor: pointer;
       position: relative;
       overflow: hidden;
 
       &::after{
-        content: '\f00c';
+        content: '\BC8B46c';
         width: 25px;
         height: 25px;
-        background-color: #DB2E2D;
+        background-color: #BC8B46;
         border-radius: 50%;
         color: #fff;
         display: flex;
@@ -1553,14 +1578,14 @@ header {
     font-weight: 900;
     line-height: 25px;
     position: relative;
-    color: #DB2E2D;
+    color: #BC8B46;
 
     &::after{
       content: '';
       position: absolute;
       width: 100%;
       height: 1px;
-      background-color: #DB2E2D;
+      background-color: #BC8B46;
       bottom: 0;
       left: 0;
       transform: scaleX(0);
@@ -1671,7 +1696,7 @@ footer {
 .scroll-top-btn {
   width: 40px;
   height: 40px;
-  background-color: #DB2E2D;
+  background-color: #BC8B46;
   border-radius: 10px;
   display: flex;
   align-items: center;

@@ -109,14 +109,14 @@ ul{
         overflow: hidden;
 
         &.gold-border{
-            border-color: #EC3737;
+            border-color: #BC8B46;
 
             .gold-img{
                 filter: invert(52%) sepia(62%) saturate(396%) hue-rotate(356deg) brightness(98%) contrast(88%);
             }
 
             .btn-data{
-                color: #EC3737;
+                color: #BC8B46;
             }
 
             &:hover{
@@ -132,22 +132,22 @@ ul{
         }
 
         &.gold-bk{
-            background-color: #EC3737;
-            border-color: #EC3737;
+            background-color: #BC8B46;
+            border-color: #BC8B46;
         }
 
         &.red-bk{
-            background-color: #EC3737;
+            background-color: #BC8B46;
             border: none;
         }
 
         &.move-bk{
-            background-color: #DB2E2D;
+            background-color: #BC8B46;
             border: none;
         }
 
         &.green-bk{
-            background-color: #EC3737;
+            background-color: #BC8B46;
             border: none;
         }
 
@@ -156,7 +156,7 @@ ul{
             position: absolute;
             width: 0%;
             height: 100%;
-            background: linear-gradient(-90deg , #EC3737 , #DB2E2D);
+            background: linear-gradient(-90deg , #BC8B46 , #BC8B46);
             top: 0;
             z-index: -1;
             transition: all .2s linear;
