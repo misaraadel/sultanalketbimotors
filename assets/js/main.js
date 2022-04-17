@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('.loader').fadeOut(2000);
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 700) {

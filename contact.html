@@ -128,7 +128,7 @@
                 </div>
   
                 <div class="button-contain">
-                  <button type="button" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#EditInfoModal">
+                  <button type="button" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#DoneModalCenter">
                     <span class="btn-data">
                       ارسال رسالة
                     </span>
@@ -324,6 +324,22 @@
       </section>
     </main>
 
+    <div class="modal fade" id="DoneModalCenter" tabindex="-1" role="dialog" aria-labelledby="DoneModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="content">
+              <img src="assets/images/done.svg" alt="">
+
+              <h1>
+                تم الارسال البيانات بنجاح
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="container">
         <div class="content">
@@ -359,6 +375,12 @@
         </div>
       </div>
     </footer>
+    
+    <div class="loader">
+      <div class="spinner">
+        <div class="inner"></div>
+      </div>
+    </div>
 
     <a data-scroll href="#" class="scroll-top-btn" id="scroll-btn">
       <i class="fas fa-chevron-up"></i>

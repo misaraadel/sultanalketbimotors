@@ -800,7 +800,7 @@
               </div>
 
               <div class="button-contain">
-                <button type="button" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#EditInfoModal">
+                <button type="button" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#DoneModalCenter" data-dismiss="modal" >
                   <span class="btn-data">
                     ارسال رسالة
                   </span>
@@ -879,7 +879,7 @@
               </div>
 
               <div class="button-contain">
-                <button type="button" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#EditInfoModal">
+                <button  type="button" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#DoneModalCenter" data-dismiss="modal" >
                   <span class="btn-data">
                     ارسال رسالة
                   </span>
@@ -948,13 +948,29 @@
               </div>
 
               <div class="button-contain">
-                <button type="button" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#EditInfoModal">
+                <button type="button" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#DoneModalCenter" data-dismiss="modal" >
                   <span class="btn-data">
                     ارسال رسالة
                   </span>
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="DoneModalCenter" tabindex="-1" role="dialog" aria-labelledby="DoneModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="content">
+              <img src="assets/images/done.svg" alt="">
+
+              <h1>
+                تم الارسال البيانات بنجاح
+              </h1>
+            </div>
           </div>
         </div>
       </div>
@@ -995,6 +1011,12 @@
         </div>
       </div>
     </footer>
+    
+    <div class="loader">
+      <div class="spinner">
+        <div class="inner"></div>
+      </div>
+    </div>
 
     <a data-scroll href="#" class="scroll-top-btn" id="scroll-btn">
       <i class="fas fa-chevron-up"></i>
